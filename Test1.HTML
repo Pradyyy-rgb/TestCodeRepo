@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Trying the javascript within the HTML file</title>
+    <script>
+        // function hello() {
+        //     let heading = document.querySelector('h1');
+        //     if(heading.innerHTML === 'Hello!') {
+        //         heading.innerHTML = 'GoodBye!'
+        //     }
+        //     else {
+        //         heading.innerHTML === 'Hello!';
+        //     }
+        // }
+// let num1;
+// let num2;
+
+function larger(num1, num2) {
+
+num1 = window.prompt("Input the First integer", "0");
+num2 = window.prompt("Input the second integer", "0");
+
+if(num1 > num2) {
+    alert(num1)
+
+}
+
+else(
+
+    console.log(num2)
+)
+}
+
+function numberSign(num1, num2, num3) {
+
+num1 =  3; 
+num2 = 7;
+num3=  -7;
+
+if(num1> num2 && num3 ) {
+    alert('the sign of posotove num1 number is' + Math.sign(num1));
+
+}
+else if(num1< num2 && num3) {
+    alert('the sign of negative num1 number is' + '    ' + Math.sign(num1));
+}
+else if(num2> num1 && num3) {
+
+    alert('the sign of num2 number is' + '    ' + Math.sign(num2))
+}
+
+//else(
+
+  //  console.log(num2)
+//
+}
+    </script>
+</head>
+
+<body>
+    <h1> </h1>
+    <button onclick= "numberSign()">Click</button>
+</body>
+
+</html>
